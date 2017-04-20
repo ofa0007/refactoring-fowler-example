@@ -7,7 +7,7 @@ import junit.framework.*;
  * Ejemplo de aplicación de refactorizaciones. Actualizado para colecciones
  * genéricas de java 1.5
  * 
- * @author M. Fowler y <A HREF="mailto:clopezno@ubu.es">Carlos López</A>
+ * @author oscar, javi
  * @version 1.1
 
  * 
