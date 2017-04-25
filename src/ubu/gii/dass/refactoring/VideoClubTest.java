@@ -17,10 +17,13 @@ public class VideoClubTest extends TestCase {
 	protected Customer c1;
 
 	protected void setUp() {
-		m11 = new Movie("Sky Captain", 1);
-		m12 = new Movie("Alejandro Magno", 1);
-		m0 = new Movie("Accion Mutante", 0);
-		m2 = new Movie("Hermano Oso", 2);
+		TypeMovie regular = new TypeMovie(2, 2, 1.5, 0, 0);
+		TypeMovie newRelease = new TypeMovie(0, 0, 3, 1, 1);
+		TypeMovie children = new TypeMovie(3, 1.5, 1.5, 0, 0);
+		m11 = new Movie("Sky Captain", newRelease);
+		m12 = new Movie("Alejandro Magno", newRelease);
+		m0 = new Movie("Accion Mutante", regular);
+		m2 = new Movie("Hermano Oso", children);
 
 		c1 = new Customer("Manuel");
 	}
